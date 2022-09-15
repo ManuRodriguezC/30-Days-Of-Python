@@ -57,10 +57,10 @@ print("\n")
 print("The radius of a circle is 30 meters")
 radius = 30
 pi = 3.1416
-area_of_circle = pi * radius**2
+area_of_circle = pi * radius ** 2
 circum_of_circle = radius * 2 * pi
-print("The area od the circle is :", area_of_circle) 
-print("The circumference of the circle is :", circum_of_circle)
+print("The area od the circle is : ", area_of_circle) 
+print("The circumference of the circle is : ", circum_of_circle)
 
 print("\n")
 
