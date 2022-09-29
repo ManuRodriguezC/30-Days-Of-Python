@@ -9,11 +9,10 @@ class Person:
         return (f"{self.name} is {self.age} years old. Is a {self.generus} and this code is {self.code}")
 
     def checker(self, owner):
-        if self.age < "30":
+        if self.age < 30:
             print(f"{self.name} is greater that {owner}")
         else:
             print(f"{self.name} is less that {owner}")
-        raise AttributeError("Tipos incorrectos")
         
 
 class Students(Person):
